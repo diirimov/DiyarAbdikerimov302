@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+.form-box {
+    padding: 40px;
+    flex: 1;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-group label {
+    margin-right: 10px;
+    color: #888;
+}
+
+.input-group input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.register-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-btn:hover {
+    background-color: #0056b3;
+}
+
+.already-member {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.already-member a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.already-member a:hover {
+    text-decoration: underline;
+}
+
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 0 10px 10px 0;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 10px 10px 0;
+}
